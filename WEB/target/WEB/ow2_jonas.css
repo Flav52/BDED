@@ -1,0 +1,183 @@
+/*
+ Context Root css. based on css from http://jonas.objectweb.org
+ XHTML by Florent BENOIT
+*/
+
+
+body
+{
+  top:10px;
+  margin-top:10px;
+  background-color: #FFF;
+  color: #000000;
+  }
+
+
+img {
+  margin: 5px;
+  border:0;
+}
+
+
+
+div.logos {
+  top: 5px;
+  width: 99%;
+  text-align: right;
+}
+
+
+div.links {
+  font-size: 14px;
+  margin-top : 40px;
+  margin-left : 200px;
+}
+
+
+div.titlepage {
+  margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  border-bottom: 1px solid #0099cc;
+  color : #ff6600;
+  font-weight : bold;
+}
+
+
+div.footer {
+  margin-top : 50px;
+  color: #FFFFFF;
+  font-size: 8pt;
+  text-align: center;
+}
+
+
+/*HTML elements */
+
+
+
+ul, ol, dl
+{
+        color: black;
+        font-family: Arial,Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: normal;
+}
+
+li
+{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 10px 0px 5px 0px;
+
+}
+a
+{
+        color: #3F3975;
+        background-color: transparent;
+        text-decoration: underline;
+}
+
+a:visited
+{
+        color: #9898CB;
+        background-color: transparent;
+        text-decoration: underline;
+}
+
+a:hover
+{
+        color: #E06611;
+        background-color: transparent;
+        text-decoration: underline;
+}
+
+
+a:active
+{
+        color: #FFFFFF;
+        background-color: #E06611;
+        text-decoration: underline;
+}
+
+
+
+
+.h1, .h2, .h3, .h4, .h5 {
+  color: #000;
+  background-color: inherit;
+  padding: 0;
+}
+
+.h1 {
+  margin-top: 5px;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 30px 0 30px 0;
+  border-bottom: 1px solid #0099cc;
+  color : #ff6600;
+  font-weight : bold;
+}
+
+.h2 {
+       margin: 20px 0 15px 0;
+      border-bottom: 1px solid #0099cc;
+    font-weight:normal;
+    font-style: normal;
+    font-size: 1.6em;
+    line-height: 1.4em;
+    color : #0099cc
+}
+
+.h3 {
+  font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin: 20px 0 15px 0;
+}
+
+.h4 {
+  font-weight:normal;
+  color: #404040;
+  margin: 20px 0 0 0;
+  left: 0px;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+.h5 {
+  font-weight:normal;
+  color: #404040;
+  font-style: normal;
+  margin: 0px;
+  left: 0px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+td
+{
+        color: black;
+        font-family: Arial,Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+}
+
+p
+{
+        color: black;
+        font-family: Arial,Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: normal;
+        margin: 10px 10px 5px 0px;
+}
+
+p.error
+{
+        color: red;
+}
+

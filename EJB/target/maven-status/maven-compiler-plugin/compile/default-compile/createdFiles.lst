@@ -1,0 +1,9 @@
+banking/LocalBank.class
+mdb/JMSMessageBean.class
+entity/Compte$QN.class
+init/InitializerBean.class
+banking/RemoteBank.class
+entity/Compte.class
+banking/BankBean.class
+banking/Bank.class
+init/Initializer.class
