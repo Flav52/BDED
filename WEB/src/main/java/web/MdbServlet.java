@@ -87,6 +87,7 @@ public class MdbServlet extends HttpServlet {
             out.write("<h2>The following messages will be sent to the destination:</h2>");
 
             	String title = rnd+":"+rndAmount;
+            out.write(title);
                 context.createProducer().send(destination, title);
 
             out.write("<p><i>Go to your Home page to see the result of messages processing.</i></p>");
